@@ -7,8 +7,7 @@ const typeDefs = gql`
     "Fetch a specific track, provided a track's ID"
     track(id: ID!): Track!
     "Fetch a module by ID"
-    modules(id: ID!): [Module!]!
-
+    module(id: ID!): Module!
   }
 
   "A track is a group of Modules that teaches about a specific topic"
